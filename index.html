@@ -65,15 +65,17 @@ respond.min.js"></script>
  }
  #blog {
       	 background-color:#f0f2ba;
- 	 	 padding-top:70px;
  	 	 width:100%;
  }
  
  #footer {
  	 	 background-color:#B0D1FB;
- 	 	 padding-top:70px;
  	 	 width:100%;
  }
+ 	 	
+.contentContainer {
+    padding-top: 70px;
+} 	 	
  	 	
  .marginBottom {
  	 	 margin-bottom:30px;
@@ -132,7 +134,7 @@ class="form-control" />
 
  <div class="row">
  	 	 <div class="col-md-6 col-md-offset-3" id="topRow">
- 	 	 <h1 class="marginTop">My Awesome Journey</h1>
+ 	 	 <h1 class="">My Awesome Journey</h1>
  	 	 <p class="lead">This is why should read about this fantastic journey.</p>
  	 	 <p>Some more information about the journey. You can go into a little
 more detail here if you want to.</p>
@@ -144,8 +146,7 @@ more detail here if you want to.</p>
  	 	 	 	 <input type="email" class="form-control"
 placeholder="Your email" />
  	 	 	 </div>
- 	 	 	 <input type="submit" class="btn btn-success btn-lg
-marginTop" />
+ 	 	 	 <button type="submit" class="btn btn-success marginTop">Sign Up!</button>
  	 	 </form>
  	 	 </div>
 
@@ -155,9 +156,9 @@ marginTop" />
 
  <div class="container contentContainer" id="details">
 
- <div class="row" class="center">
+ <div class="row" class="center marginTop">
  	 	
- 	 	 <h1 class="center title">Why This Journey Is Awesome</h1>
+ 	 	 <h1 class="center title marginTop">Why This Journey Is Awesome</h1>
  	 	 <p class="lead center">Summary of the Journey's awesomeness</p>
  	 	
  	 	
@@ -217,8 +218,8 @@ your journey. Maybe a little more text.</p>
                <h3 class="center">Journey label</h3>
                <p>A brief description of one of the best features of your journey.
         Maybe a little more text. A brief description of one of the best features of
-        your journey. Maybe a little more text.</p>
-               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        your journey. Maybe a little more text...
+               <a href="#" class="btn btn-default" role="button">Read more</a></p>
              </div>
            </div>
          </div>
@@ -230,8 +231,8 @@ your journey. Maybe a little more text.</p>
                <h3 class="center">Journey label</h3>
                <p>A brief description of one of the best features of your journey.
         Maybe a little more text. A brief description of one of the best features of
-        your journey. Maybe a little more text.</p>
-               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        your journey. Maybe a little more text...
+               <a href="#" class="btn btn-default" role="button">Read more</a></p>
              </div>
            </div>
          </div>
@@ -243,36 +244,8 @@ your journey. Maybe a little more text.</p>
                <h3 class="center">Journey label</h3>
                <p>A brief description of one of the best features of your journey.
         Maybe a little more text. A brief description of one of the best features of
-        your journey. Maybe a little more text.</p>
-               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-             </div>
-           </div>
-         </div>
-
-         <div class="col-sm-6 col-md-4 ">
-           <div class="panel panel-default">
-             <div class="panel header center">
-               <h3>Journey label</h3>
-             </div>
-             <div class="panel-body">
-             <p>A brief description of one of the best features of your journey.
-        Maybe a little more text. A brief description of one of the best features of
-        your journey. Maybe a little more text.</p>
-               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-             </div>
-           </div>
-         </div>
-
-         <div class="col-sm-6 col-md-4 ">
-           <div class="panel panel-default">
-             <div class="panel header center">
-               <h3>Journey label</h3>
-             </div>
-             <div class="panel-body">
-             <p>A brief description of one of the best features of your journey.
-        Maybe a little more text. A brief description of one of the best features of
-        your journey. Maybe a little more text.</p>
-               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        your journey. Maybe a little more text...
+               <a href="#" class="btn btn-default" role="button">Read more</a></p>
              </div>
            </div>
          </div>
@@ -286,7 +259,35 @@ your journey. Maybe a little more text.</p>
              <p>A brief description of one of the best features of your journey.
         Maybe a little more text. A brief description of one of the best features of
         your journey. Maybe a little more text.</p>
-               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+               <p class="center"><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-sm-6 col-md-4 ">
+           <div class="panel panel-default ">
+             <div class="panel header center">
+               <h3>Journey label</h3>
+             </div>
+             <div class="panel-body">
+             <p>A brief description of one of the best features of your journey.
+        Maybe a little more text. A brief description of one of the best features of
+        your journey. Maybe a little more text.</p>
+               <p class="center"><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-sm-6 col-md-4 ">
+           <div class="panel panel-default ">
+             <div class="panel header center">
+               <h3>Journey label</h3>
+             </div>
+             <div class="panel-body">
+             <p>A brief description of one of the best features of your journey.
+        Maybe a little more text. A brief description of one of the best features of
+        your journey. Maybe a little more text.</p>
+               <p class="center"><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
              </div>
            </div>
          </div>
